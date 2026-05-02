@@ -6,7 +6,7 @@ const {
   createProduct,
   updateProduct,
   deleteProduct,
-} = require('../controllers/productController');
+} = require('../controllers/ProductController');
 const { protect, adminOnly } = require('../middleware/auth');
 
 // Public routes
