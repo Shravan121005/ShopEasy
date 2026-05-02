@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Form, Button, Card, Alert } from 'react-bootstrap';
 import { useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/authContext';
 
 const Login = () => {
   const [form, setForm] = useState({ email: '', password: '' });

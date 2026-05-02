@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const Product = require('../models/Product');
-const Cart = require('../models/Cart');
+const Product = require('../models/product');
+const Cart = require('../models/cart');
 
 // @desc  Get all products (with optional search & category filter)
 // @route GET /api/products

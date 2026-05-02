@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Navbar as BsNavbar, Nav, Container, Button, Badge } from 'react-bootstrap';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/authContext';
 
 const Navbar = () => {
   const { user, logout } = useAuth();

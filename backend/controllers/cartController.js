@@ -1,4 +1,4 @@
-const Cart = require('../models/Cart');
+const Cart = require('../models/cart');
 
 // @desc  Get user cart
 // @route GET /api/cart

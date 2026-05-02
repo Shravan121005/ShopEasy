@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import ProtectedRoute from './components/ProtectedRoute';
-import Home from './pages/Home';
-import ProductDetail from './pages/ProductDetail';
-import Cart from './pages/Cart';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import AdminDashboard from './pages/AdminDashboard';
+import Navbar from './components/navbar';
+import ProtectedRoute from './components/protectedRoute';
+import Home from './pages/home';
+import ProductDetail from './pages/productDetail';
+import Cart from './pages/cart';
+import Login from './pages/login';
+import Register from './pages/register';
+import AdminDashboard from './pages/adminDashboard';
 
 function App() {
   return (

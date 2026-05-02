@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Row, Col, Button, Badge, Alert, Spinner } from 'react-bootstrap';
 import api from '../api/axios';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/authContext';
 
 const ProductDetail = () => {
   const { id } = useParams();

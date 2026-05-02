@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Row, Col, Form, InputGroup, Button, Alert, Spinner } from 'react-bootstrap';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../components/productCard';
 import api from '../api/axios';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/authContext';
 import { useNavigate } from 'react-router-dom';
 
 const CATEGORIES = ['All', 'Electronics', 'Clothing', 'Books', 'Home', 'Sports', 'Toys', 'Other'];
