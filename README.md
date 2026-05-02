@@ -1,6 +1,7 @@
 #  E-Commerce Web App
 
 A full-stack e-commerce product listing application built using the MERN stack (MongoDB, Express, React, Node.js).
+URL: https://shopeasy-frontend-sgng.onrender.com/
 
 ---
 
